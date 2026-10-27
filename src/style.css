@@ -67,3 +67,36 @@
 .review-section{background:#100d0b}
 .project-preview{background:radial-gradient(ellipse at 50% 35%,#55321e,#17110e 75%)}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+
+
+/* Personal developer portfolio hero and Hire Me flow */
+.hero-copy .hero-name{font-size:clamp(58px,7vw,104px);line-height:.98;letter-spacing:-.075em;margin:12px 0 5px;font-weight:800}
+.hero-copy .hero-role{font-size:clamp(25px,3.1vw,43px);line-height:1.13;letter-spacing:-.045em;margin:0 0 20px;font-weight:750}
+.hero-copy .hero-lede{font-size:clamp(17px,1.65vw,21px);line-height:1.48;max-width:590px;color:#f3eee9;margin:0 0 12px}
+.hero-copy .hero-support{max-width:570px;color:#a9a09a;font-size:14px;line-height:1.8;margin:0 0 22px}
+.hero-service-line{display:flex;gap:19px;flex-wrap:wrap;margin:0 0 25px}
+.hero-service-line span{display:inline-flex;align-items:center;gap:7px;color:#e8ded5;font-size:12px}
+.hero-service-line svg{color:#ff8a26}
+.hero-proof{display:flex;align-items:center;gap:12px;margin-top:24px}
+.hero-proof>div{display:grid;gap:4px}
+.hero-proof b{font-size:12px;color:#f6eee8}
+.hero-proof small{font-size:11px;color:#a89b91}
+.availability-dot{width:8px;height:8px;flex:0 0 8px;border-radius:50%;background:#45d483;box-shadow:0 0 0 5px #45d48319}
+.nav-cta{display:inline-flex;align-items:center;gap:8px;cursor:pointer;font:inherit}
+.hire-modal-backdrop{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:20px;background:#050403d9;backdrop-filter:blur(12px);animation:hireFade .18s ease-out}
+.hire-modal{position:relative;width:min(100%,560px);padding:clamp(24px,5vw,42px);background:#100e0c;border:1px solid #ff8a264d;box-shadow:0 25px 100px #0009;border-radius:18px;animation:hireRise .24s ease-out}
+.hire-modal h2{font-size:clamp(28px,5vw,40px);letter-spacing:-.045em;margin:16px 0 10px}
+.hire-modal>p{font-size:14px;line-height:1.75;color:#b5aaa1;margin:0 0 23px}
+.hire-close{position:absolute;right:15px;top:15px;width:38px;height:38px;display:grid;place-items:center;border:1px solid #ffffff20;background:#ffffff08;color:#fff;border-radius:50%;cursor:pointer}
+.hire-options{display:grid;gap:10px}
+.hire-options button{display:grid;grid-template-columns:42px 1fr 20px;grid-template-rows:auto auto;align-items:center;column-gap:12px;text-align:left;padding:15px;background:#17120f;border:1px solid #ffffff16;border-radius:12px;color:#f7f2ed;cursor:pointer;transition:border-color .2s,transform .2s,background .2s}
+.hire-options button:hover{border-color:#ff8a2680;background:#21170f;transform:translateY(-2px)}
+.hire-option-icon{grid-row:1/3;width:42px;height:42px;display:grid;place-items:center;border:1px solid #ff8a264d;border-radius:10px;color:#ff8a26}
+.hire-options b{font-size:14px}
+.hire-options small{grid-column:2;color:#a99d93;font-size:12px;line-height:1.5;margin-top:4px}
+.hire-options button>svg{grid-column:3;grid-row:1/3;color:#ff8a26}
+.hire-modal-note{display:block;color:#8e837a;font-size:11px;line-height:1.6;margin-top:17px}
+@keyframes hireFade{from{opacity:0}to{opacity:1}}
+@keyframes hireRise{from{opacity:0;transform:translateY(12px) scale(.99)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:640px){.hero-copy .hero-name{font-size:64px}.hero-copy .hero-role{font-size:29px}.hero-service-line{gap:12px}.hero-copy .hero-support{font-size:13px}.hire-modal{padding:26px 20px}}
+@media(prefers-reduced-motion:reduce){.hire-modal-backdrop,.hire-modal{animation:none}.hire-options button{transition:none}}
