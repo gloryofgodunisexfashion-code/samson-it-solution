@@ -5,7 +5,8 @@ import './style.css';
 
 const projects = [
   { no: '01', category: 'HTML · CSS', title: 'Restaurant Website', type: 'Website design & front-end build', tone: 'restaurant', url: 'https://resturant-henna-eight.vercel.app/about.html', tags: ['HTML', 'CSS', 'Responsive layout'], description: 'A restaurant website project built with HTML and CSS — focused on presenting the restaurant clearly and making the experience easy to explore.' },
-  { no: '02', category: 'FASHION · WEB DESIGN', title: 'Fashion Designer Website', type: 'Website for a fashion business', tone: 'fashion', url: 'https://glory-of-god-fashion.web.app/', tags: ['Web design', 'HTML', 'CSS'], description: 'A website created for a fashion designer business, bringing the brand and its work into a dedicated online presence.' }
+  { no: '02', category: 'FASHION · WEB DESIGN', title: 'Fashion Designer Website', type: 'Website for a fashion business', tone: 'fashion', url: 'https://glory-of-god-fashion.web.app/', tags: ['Web design', 'HTML', 'CSS'], description: 'A website created for a fashion designer business, bringing the brand and its work into a dedicated online presence.' },
+  { no: '03', category: 'BUSINESS WEBSITE', title: 'Gbemidebe Treats', type: 'Live business website', tone: 'treats', url: 'https://gbemidebetreats.com.ng/', tags: ['Business website', 'Responsive design', 'Online presence'], description: 'A live website for Gbemidebe Treats. Explore the business website and its customer-facing experience.' }
 ];
 const services = [
   { icon: PanelsTopLeft, n: '01', title: 'Websites & digital presence', desc: 'Distinctive, fast websites that tell your story clearly and help the right people take action.' },
