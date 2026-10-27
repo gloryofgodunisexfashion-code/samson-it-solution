@@ -44,3 +44,26 @@
 .fashion-art>span{position:absolute;bottom:8px;left:8px;font-size:6px;letter-spacing:1px;color:#fff;line-height:1.5}
 .fashion-bottom{padding:10px 15px;font-size:6px;letter-spacing:1px;border-top:1px solid #34262a20}
 @media(max-width:720px){.preview-site{min-height:240px}.restaurant-hero{min-height:165px;padding:23px 14px}.fashion-hero{min-height:185px}.fashion-art{min-height:150px}.preview-browser{transform:none}.project-row:hover .preview-browser{transform:scale(1.01)}}
+
+
+/* SAMSON IT SOLUTION — selected black & orange visual direction */
+:root{--blue:#ff7a1a;--cyan:#ffad55}
+.announcement{background:#17100c;color:#d9c3b2}
+.pulse-dot{background:#ff8a24;box-shadow:0 0 0 4px #ff8a241c}
+.brand-symbol span,.hero-gradient,.gradient-text{color:#ff7a1a}
+.hero-gradient,.gradient-text{background:linear-gradient(110deg,#ff9d42,#ff6818 65%,#ffc078);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero-glow{background:#ff791b}
+.nav-cta,.btn-primary{background:#ff7618;border-color:#ff7618;color:#180c05}
+.eyebrow,.project-category,.service-icon,.strip-icon,.contact-icon,.contact-email-link,.text-link,.project-link,.note-star,.orb-text span{color:#ff9840}
+.eyebrow-line{background:#ff8125}
+.nav-links>a:hover,.contact-socials a:hover{color:#ff9840}
+.service-card:hover,.project-row:hover .project-art,.review-promise:hover{border-color:#ff8b3d70}
+.project-image-label,.project-number,.process-number,.about-stats b span{color:#ff9840}
+.tech-section{background:#17120f}
+.tech-list span svg{color:#ff9840}
+.about-orb{background:radial-gradient(circle at 45% 40%,#57311d 0,#2b1a12 38%,#100d0b 69%)}
+.orb-ring{border-color:#ffb16a45}.ring-two{border-color:#ff7b3835}
+.contact-section{background:radial-gradient(ellipse at 0 0,#5b2a124d,transparent 55%),#0d0c0b}
+.review-section{background:#100d0b}
+.project-preview{background:radial-gradient(ellipse at 50% 35%,#55321e,#17110e 75%)}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
